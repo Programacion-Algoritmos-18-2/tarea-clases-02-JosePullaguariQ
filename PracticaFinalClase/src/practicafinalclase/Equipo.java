@@ -38,17 +38,20 @@ public class Equipo {
     public void agreCiudad(String nomb_ciudad){
         ciudad=nomb_ciudad;
     }
-    
-    //Creamos los 4 Constructores
+ 
+    //Creamos primer constructor
     public Equipo(){
     }
+    //Creamos segundo constructor
     public Equipo(String nombre){
         agregarNombre(nombre);
     }
+    //Creamos tecer constructor
     public Equipo(String nombre,int num_jugadores){
         agregarNombre(nombre);
         agregNum(num_jugadores);
     }
+    //Creamos cuarto constructor
     public Equipo(String nombre,int num_jugadores,String ciudad){
         agregarNombre(nombre);
         agregNum(num_jugadores);
